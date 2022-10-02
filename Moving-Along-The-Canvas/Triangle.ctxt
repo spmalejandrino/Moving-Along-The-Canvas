@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.params=canvas
+comment0.target=Triangle(Canvas)
+comment0.text=\nCreate\ a\ new\ triangle\ at\ the\ default\ position\ with\ the\ndefault\ color\ and\ size.\n\n
+comment1.target=void\ makeVisible()
+comment1.text=\nMake\ this\ triangle\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\n\n
+comment10.target=int\ getHeight()
+comment10.text=\n@return\ height\ --\ measure\ of\ the\ height\ of\ the\ triangle\n\n
+comment11.target=int\ getXPosition()
+comment11.text=\n@return\ xPosition\ --\ the\ x\ coordinate\ of\ the\ vertex\ opposite\ the\ base\n\n
+comment12.target=int\ getYPosition()
+comment12.text=\n@return\ yPosition\ --\ the\ y\ coordinate\ of\ the\ vertex\ opposite\ the\ base\n\n
+comment2.target=void\ makeInvisible()
+comment2.text=\nMake\ this\ triangle\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\n\n
+comment3.params=newXPosition\ newYPosition
+comment3.target=void\ moveTo(int,\ int)
+comment3.text=\nMove\ the\ rightmost\ vertex\ to\ the\ location\ defined\ by\ newXPosition\ and\ newYPosition\n@param\ \ newXPosition\ -\ new\ location\ for\ rightmost\ vertex\ of\ triangle\n@param\ \ newYPosition\ -\ new\ location\ for\ rightmost\ vertex\ of\ triangle\n\n
+comment4.params=xDistance\ yDistance
+comment4.target=void\ moveDirection(int,\ int)
+comment4.text=\nMove\ the\ rightmost\ vertex\ the\ distance\ defined\ by\ xDistance\ and\ yDistance\n@param\ \ xDistance\ --\ how\ far\ to\ move\ right\ or\ left\ in\ the\ horizontal\ direction\n@param\ \ xDistance\ --\ how\ far\ to\ move\ up\ or\ down\ in\ the\ vertical\ direction\n\n
+comment5.params=newHeight\ newWidth
+comment5.target=void\ changeSize(int,\ int)
+comment5.text=\nChange\ the\ size\ to\ the\ new\ size\ (in\ pixels)\ given\ by\ newHeight,\ newWidth.\ Values\ must\ be\ >\=\ 0.\n\n
+comment6.params=newColor
+comment6.target=void\ changeColor(String)
+comment6.text=\nChange\ the\ color.\ Valid\ colors\ are\ "red",\ "yellow",\ "blue",\ "green",\n"magenta"\ and\ "black".\n\n
+comment7.target=void\ draw()
+comment7.text=\nDraw\ the\ triangle\ with\ current\ specifications\ (color,\ size,\ coordinates\ of\ the\nrightmost\ vertex)\ on\ the\ canvas.\n\n
+comment8.target=void\ erase()
+comment8.text=\nRemove\ all\ graphics\ from\ the\ canvas\n\n
+comment9.target=int\ getWidth()
+comment9.text=\n@return\ width\ --\ measure\ of\ the\ base\ of\ the\ triangle\n\n
+numComments=13

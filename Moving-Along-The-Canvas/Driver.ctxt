@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\n\ This\ Driver\ class\ creates\ two\ objects,\ allowing\ the\ user\ to\ start\ the\ Circle\ \n\ object\ moving\ ten\ times\ to\ the\ right\ of\ the\ canvas,\ as\ long\ as\ it\ doesn't\ disappear\ \n\ from\ the\ right\ of\ the\ canvas\ or\ to\ remove\ the\ objects\ from\ the\ canvas.\n\ \n\ @author\ Computer\ Science\ Department\n
+comment1.params=
+comment1.target=Driver()
+comment1.text=\n\ Constructor\ for\ the\ Driver\ class.\ Driver\ creates\ and\ makes\ visible\ a\ Circle\ object\ \n\ close\ to\ the\ center\ of\ the\ canvas,\ a\ Triangle\ object\ near\ (but\ not\ covering\ up)\ \n\ the\ ball\ and\ a\ Label\ object\ close\ to\ the\ center\ and\ top\ of\ the\ canvas.\n
+comment2.params=
+comment2.target=void\ start()
+comment2.text=\n\ As\ long\ as\ the\ ball\ object\ does\ not\ glide\ off\ the\ right\ side\ of\ the\ canvas,\ \n\ move\ the\ ball\ ten\ times\ "over\ three\ pixels\ to\ the\ right".\ \ \n
+comment3.params=
+comment3.target=void\ exit()
+comment3.text=\n\ Remove\ the\ rocket\ and\ ball\ from\ the\ canvas\n
+comment4.params=
+comment4.target=void\ bounceBall()
+numComments=5
