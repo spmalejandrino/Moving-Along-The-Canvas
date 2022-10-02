@@ -1,10 +1,4 @@
-/**
- * This Driver class creates two objects, allowing the user to start the Circle 
- * object moving ten times to the right of the canvas, as long as it doesn't disappear 
- * from the right of the canvas or to remove the objects from the canvas.
- * 
- * @author Computer Science Department
- */
+
 
 public class Driver {
     private Canvas myCanvas;
@@ -13,11 +7,7 @@ public class Driver {
     private Triangle rocket;
     private Label label;
 
-    /**
-     * Constructor for the Driver class. Driver creates and makes visible a Circle object 
-     * close to the center of the canvas, a Triangle object near (but not covering up) 
-     * the ball and a Label object close to the center and top of the canvas.
-     */
+ 
     public Driver()
     {
         myCanvas = new Canvas("Lab 4, shapes-1");
