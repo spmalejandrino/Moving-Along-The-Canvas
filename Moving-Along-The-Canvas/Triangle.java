@@ -1,17 +1,5 @@
 import java.awt.*;
 
-/**
- * A Triangle class allowing objects that can be manipulated (made larger/smaller, 
- * moved about the canvas, made visible/invisible, have their colors changed and be erased) 
- * and that draws them on a canvas.
- * 
- * @author  Michael Kolling & David J. Barnes
- * @version 1.0  (15 July 2000)
- * 
- * Revised by Computer Science Department
- * @version January 2008
- */
-
 public class Triangle
 {
     private int height;
