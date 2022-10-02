@@ -4,30 +4,8 @@ import java.util.List;
 import java.util.*;
 import java.awt.event.*;
 
-/**
- * Canvas is a class to allow for simple graphical drawing on a canvas.
- * This is a modification of the general purpose Canvas, specially made for
- * the BlueJ "shapes" example. 
- *
- * @author: Bruce Quig
- * @author: Michael Kolling (mik)
- *
- * @version: 1.6 (shapes)
- * 
- * New version using graphics only. The previous JLabel is replaced with
- * a text graphic oblect -- see the LabelDescription inner-class, DrawString
- * and Redraw classes 
- * @author: Computer Science Department
- * @version: 3.0 - August 2005
- */
 public class Canvas
 {
-    // Note: The implementation of this class (specifically the handling of
-    // shape identity and colors) is slightly more complex than necessary. This
-    // is done on purpose to keep the interface and instance fields of the
-    // shape objects in this project clean and simple for educational purposes.
-
-    //  ----- instance part -----
 
     private JFrame frame;
     private DrawingSurface canvas;
@@ -37,13 +15,7 @@ public class Canvas
     private List objects;
     private HashMap shapes;
     
-    /**
-     * Create a Canvas.
-     * @param title -- title to appear in Canvas Frame
-     * @param width -- the desired width for the canvas
-     * @param height -- the desired height for the canvas
-     * @param bgColour -- the desired background color of the canvas
-     */
+    
     public Canvas(String title, int width, int height, Color bgColour )
     {
         frame = new JFrame();
@@ -57,13 +29,7 @@ public class Canvas
         shapes = new HashMap();
     }
 
-    /**
-     * Create a Canvas.
-     * creates canvas with a background of white
-     * @param title -- title to appear in Canvas Frame
-     * @param width -- the desired width for the canvas
-     * @param height -- the desired height for the canvas
-     */
+    
     public Canvas(String title, int width, int height)
     {
         frame = new JFrame();
@@ -77,11 +43,7 @@ public class Canvas
         shapes = new HashMap();
     }
 
-    /**
-     * Create a Canvas.
-     * creates canvas with a background of white and size of 300 by 300
-     * @param title -- title to appear in Canvas Frame
-     */
+    
     public Canvas(String title)
     {
         frame = new JFrame();
