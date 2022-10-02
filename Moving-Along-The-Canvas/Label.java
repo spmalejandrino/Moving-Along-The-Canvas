@@ -1,9 +1,4 @@
-/**
- * A class to handle the graphing of text
- * 
- * @author Computer Science Department
- * @version January 2008
- */
+
 
 public class Label
 {
